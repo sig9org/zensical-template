@@ -29,7 +29,7 @@ extra_javascript = [
 
 [project.theme]
 #variant = "classic"
-#custom_dir = "overrides"
+custom_dir = "overrides"
 #favicon = "assets/images/favicon.png"
 language = "ja"
 features = [
@@ -123,6 +123,7 @@ custom_fences = [
 alternate_style = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
+clickable_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
 [project.markdown_extensions.tables]
 [project.markdown_extensions.toc]
